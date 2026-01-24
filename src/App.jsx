@@ -19,9 +19,9 @@ export default function App(){
       const res = await fetch(API)
       const data = await res.json()
       setJobs(Array.isArray(data) ? data : [])
-    }catch(err){
+    } catch(err){
       console.error(err)
-    }finally{ setLoading(false) }
+    } finally{ setLoading(false) }
   }
 
   const filtered = useMemo(()=>{
