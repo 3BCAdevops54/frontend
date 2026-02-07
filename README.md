@@ -66,6 +66,10 @@ FRONTEND/
 
 Access the app at http://localhost:5173.
 
+
+[!page](<img width="1920" height="1080" alt="api working" src="https://github.com/user-attachments/assets/40083a37-411a-4053-a794-ff990d26cbb9" />
+
+
 ### SonarQube Configuration
 To maintain high code quality, the frontend is integrated with SonarQube. Below is the configuration found in the sonar-project.properties file:
 sonar.projectKey=jobtracker-frontend
