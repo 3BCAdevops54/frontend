@@ -111,6 +111,7 @@ export default function App(){
             <h2 className="text-lg font-semibold text-slate-800">Applications</h2>
           </div>
 
+
           <div className="p-4">
             {loading ? (
               <div className="py-12 text-center text-sm text-slate-500">Loading...</div>
