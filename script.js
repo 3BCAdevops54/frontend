@@ -1,4 +1,4 @@
-const API = 'http://localhost:8080/jobs';
+const API = 'https://job-backend-470n.onrender.com/jobs';
 
 const jobModalEl = document.getElementById('jobModal');
 const jobModal = new bootstrap.Modal(jobModalEl);
